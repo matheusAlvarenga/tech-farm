@@ -1,10 +1,7 @@
-function App() {
+import { ResetCss } from "./styles/global"
 
+export const App = () => {
   return (
-    <>
-      <h1>TechFarm</h1>
-    </>
+    <ResetCss></ResetCss>
   )
 }
-
-export default App
