@@ -6,11 +6,15 @@ export const ResetCss = createGlobalStyle`
       padding: 0;
       box-sizing: border-box;
       font-family: 'Inter', sans-serif;
+      color: black;
   }
   html, body {
       overflow-x: hidden;
   }
   button {
       cursor: pointer;
+  }
+  a {
+    text-decoration: none;
   }
 `;
