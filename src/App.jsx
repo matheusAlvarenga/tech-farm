@@ -1,12 +1,11 @@
-import { ResetCss } from "./styles/global"
-import { AppRouter } from "./router"
+import { ResetCss } from './styles/global';
+import { AppRouter } from './router';
 
-export const App = () => {
+export function App() {
   return (
     <>
-      <ResetCss></ResetCss>
-      <AppRouter>
-      </AppRouter>
+      <ResetCss />
+      <AppRouter />
     </>
-  )
+  );
 }
