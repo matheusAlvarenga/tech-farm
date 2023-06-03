@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -45,3 +46,26 @@ export const Image4 = styled.img`
   position: absolute;
   left: 0;
 `;
+
+export const Image5 = styled.img`
+  position: absolute;
+  right: 0;
+`;
+
+export const TextWrapper = styled.div`
+  max-width: 60rem;
+
+  & > * {
+    text-align: center;
+  }
+`;
+
+export const StyledLink = styled(Link)`
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  text-decoration: underline;
+  color: #90A0AF;
+`;
+
+export const Logo = styled.img``;

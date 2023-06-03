@@ -7,7 +7,7 @@ export const TitleWrapper = styled.div`
   font-size: ${(props) => props.size};
   line-height: ${(props) => props.lineHeight || 'unset'};
   align-items: flex-end;
-  text-align: center;
+  text-align: ${(props) => props.align};
   text-transform: ${(props) => (props.uppercase ? 'uppercase' : 'unset')};
 
   background: linear-gradient(272.48deg, #FFFFFF 66.94%, #8336A7 84.96%, #C74FFF 91.51%);

@@ -4,6 +4,8 @@ import img1 from '../../assets/home-1.png';
 import img2 from '../../assets/home-2.png';
 import img3 from '../../assets/home-3.png';
 import img4 from '../../assets/home-4.png';
+import img5 from '../../assets/home-5.png';
+import logo from '../../assets/logo.svg';
 import * as S from './styles';
 import { Banner } from '../../components/banner';
 import { Divider } from '../../components/divider';
@@ -74,6 +76,27 @@ export function Home() {
           id justo non, condimentum finibus nisi.
         </Text>
       </S.HorizontalSection>
+      <S.Section>
+        <S.Image5 src={img5} alt="" />
+        <Title size="20rem" uppercase>
+          Entenda mais
+          <br />
+          sobre
+        </Title>
+        <S.TextWrapper>
+          <Text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam.
+            Quisque et ipsum eros. Nunc aliquam elit non felis bibendum.
+            <br />
+            <S.StyledLink to="#">Veja nosso video pitch!</S.StyledLink>
+          </Text>
+        </S.TextWrapper>
+      </S.Section>
+      <Divider height="80px" />
+      <S.Section>
+        <S.Logo src={logo} alt="" />
+        <Divider height="40px" />
+      </S.Section>
     </S.Wrapper>
   );
 }
