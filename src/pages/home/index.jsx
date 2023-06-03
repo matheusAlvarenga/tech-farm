@@ -1,6 +1,7 @@
 import { Header } from '../../components/header';
 import { Title } from '../../components/title';
 import img1 from '../../assets/home-1.png';
+import img2 from '../../assets/home-2.png';
 import * as S from './styles';
 import { Banner } from '../../components/banner';
 import { Divider } from '../../components/divider';
@@ -9,7 +10,7 @@ export function Home() {
   return (
     <S.Wrapper>
       <Header />
-      <S.FirstImage
+      <S.Image1
         src={img1}
         alt=""
       />
@@ -28,6 +29,7 @@ export function Home() {
         <b>matar a fome</b>
         !
       </Banner>
+      <S.Image2 src={img2} />
     </S.Wrapper>
   );
 }

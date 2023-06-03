@@ -6,8 +6,15 @@ export const Wrapper = styled.div`
   align-items: center;
 `;
 
-export const FirstImage = styled.img`
+export const Image1 = styled.img`
   position: absolute;
   top: 43.2rem;
   left: 20%;
+`;
+
+export const Image2 = styled.img`
+  padding: 8rem 4.8rem;
+  position: relative;
+  z-index: 2;
+  width: 100%;
 `;
