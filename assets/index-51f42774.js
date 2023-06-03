@@ -324,7 +324,7 @@ See https://s-c.sh/2BAXzed for more info.`),window["__styled-components-init__"]
   font-size: 20px;
   line-height: 24px;
   color: black;
-`,CE="/assets/logo-deed5ed7.svg";function qM(){return pe.jsxs(IM,{children:[pe.jsx(GM,{src:CE}),pe.jsxs(WM,{children:[pe.jsx(Zl,{children:pe.jsx(es,{children:"Inicio"})}),pe.jsx(Zl,{children:pe.jsx(es,{children:"Fome"})}),pe.jsx(Zl,{children:pe.jsx(es,{children:"Inseguranca Alimentar"})}),pe.jsx(Zl,{children:pe.jsx(es,{children:"Agricultura"})}),pe.jsx(Zl,{children:pe.jsx(es,{children:"Nossa Solucao ↓"})})]})]})}const QM=Qt.div`
+`,CE="/tech-farm/assets/logo-deed5ed7.svg";function qM(){return pe.jsxs(IM,{children:[pe.jsx(GM,{src:CE}),pe.jsxs(WM,{children:[pe.jsx(Zl,{children:pe.jsx(es,{children:"Inicio"})}),pe.jsx(Zl,{children:pe.jsx(es,{children:"Fome"})}),pe.jsx(Zl,{children:pe.jsx(es,{children:"Inseguranca Alimentar"})}),pe.jsx(Zl,{children:pe.jsx(es,{children:"Agricultura"})}),pe.jsx(Zl,{children:pe.jsx(es,{children:"Nossa Solucao ↓"})})]})]})}const QM=Qt.div`
   font-family: 'Fjalla One';
   font-style: normal;
   font-weight: 400;
@@ -343,7 +343,7 @@ See https://s-c.sh/2BAXzed for more info.`),window["__styled-components-init__"]
   mix-blend-mode: exclusion;
 
   padding: 0 100px;
-`;function wf({children:u,size:c,uppercase:p,align:v="center"}){return pe.jsx(QM,{size:c,uppercase:p,align:v,children:u})}const XM="/assets/home-1-a0a21d42.png",KM="/assets/home-2-0836c97d.png",JM="/assets/home-3-83b5ea9c.png",ZM="/assets/home-4-a47a9b11.png",eL="/assets/home-5-05451689.png",tL=Qt.div`
+`;function wf({children:u,size:c,uppercase:p,align:v="center"}){return pe.jsx(QM,{size:c,uppercase:p,align:v,children:u})}const XM="/tech-farm/assets/home-1-a0a21d42.png",KM="/tech-farm/assets/home-2-0836c97d.png",JM="/tech-farm/assets/home-3-83b5ea9c.png",ZM="/tech-farm/assets/home-4-a47a9b11.png",eL="/tech-farm/assets/home-5-05451689.png",tL=Qt.div`
   display: flex;
   flex-direction: column;
   align-items: center;
