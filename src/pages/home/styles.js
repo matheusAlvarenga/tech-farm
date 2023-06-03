@@ -22,7 +22,7 @@ export const Image2 = styled.img`
 export const Image3 = styled.img`
   position: absolute;
   top: 15rem;
-  right: 10%;
+  right: 0;
 `;
 
 export const Section = styled.div`
@@ -31,4 +31,9 @@ export const Section = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+`;
+
+export const Image4 = styled.img`
+  position: absolute;
+  left: 0;
 `;

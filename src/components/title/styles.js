@@ -5,6 +5,7 @@ export const TitleWrapper = styled.div`
   font-style: normal;
   font-weight: 400;
   font-size: ${(props) => props.size};
+  line-height: ${(props) => props.lineHeight || 'unset'};
   align-items: flex-end;
   text-align: center;
   text-transform: ${(props) => (props.uppercase ? 'uppercase' : 'unset')};

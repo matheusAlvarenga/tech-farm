@@ -3,6 +3,7 @@ import { Title } from '../../components/title';
 import img1 from '../../assets/home-1.png';
 import img2 from '../../assets/home-2.png';
 import img3 from '../../assets/home-3.png';
+import img4 from '../../assets/home-4.png';
 import * as S from './styles';
 import { Banner } from '../../components/banner';
 import { Divider } from '../../components/divider';
@@ -45,6 +46,12 @@ export function Home() {
         <Banner variant>
           Utilizamos IA generativas para aumentar a produtividade de nossas fazendas
         </Banner>
+      </S.Section>
+      <Divider height="160px" />
+      <S.Section>
+        <S.Image4 src={img4} alt="" />
+        <Divider height="40px" />
+        <Title size="20rem" uppercase lineHeight="100%">Revolucao da agricultura</Title>
       </S.Section>
     </S.Wrapper>
   );
