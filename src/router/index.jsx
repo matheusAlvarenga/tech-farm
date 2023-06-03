@@ -3,7 +3,7 @@ import { Home } from '../pages/home';
 
 export function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/tech-farm">
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="*" element={<h1>Erro</h1>} />
