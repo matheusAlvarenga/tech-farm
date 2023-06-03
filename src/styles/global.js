@@ -9,7 +9,9 @@ export const ResetCss = createGlobalStyle`
       color: black;
   }
   html, body {
+      font-size: 62.5%;
       overflow-x: hidden;
+      background-color: white;
   }
   button {
       cursor: pointer;
