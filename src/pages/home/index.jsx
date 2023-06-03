@@ -7,6 +7,7 @@ import img4 from '../../assets/home-4.png';
 import * as S from './styles';
 import { Banner } from '../../components/banner';
 import { Divider } from '../../components/divider';
+import { Text } from '../../components/text';
 
 export function Home() {
   return (
@@ -53,6 +54,26 @@ export function Home() {
         <Divider height="40px" />
         <Title size="20rem" uppercase lineHeight="100%">Revolucao da agricultura</Title>
       </S.Section>
+      <S.HorizontalSection>
+        <Text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam.
+          Quisque et ipsum eros. Nunc aliquam elit non felis bibendum, cursus feugiat erat suscipit.
+          Donec porttitor nunc dignissim eros egestas aliquam in eu erat. Praesent odio elit, auctor
+          id justo non, condimentum finibus nisi.
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam.
+          Quisque et ipsum eros. Nunc aliquam elit non felis bibendum, cursus feugiat erat suscipit.
+          Donec porttitor nunc dignissim eros egestas aliquam in eu erat. Praesent odio elit, auctor
+          id justo non, condimentum finibus nisi.
+        </Text>
+        <Text>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam.
+          Quisque et ipsum eros. Nunc aliquam elit non felis bibendum, cursus feugiat erat suscipit.
+          Donec porttitor nunc dignissim eros egestas aliquam in eu erat. Praesent odio elit, auctor
+          id justo non, condimentum finibus nisi.
+        </Text>
+      </S.HorizontalSection>
     </S.Wrapper>
   );
 }

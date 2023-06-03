@@ -33,6 +33,14 @@ export const Section = styled.div`
   align-items: center;
 `;
 
+export const HorizontalSection = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 4.8rem;
+  padding: 6rem 12rem;
+`;
+
 export const Image4 = styled.img`
   position: absolute;
   left: 0;
