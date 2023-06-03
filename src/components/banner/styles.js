@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   padding: 1.6rem 2.4rem;
-  background: black;
+  background: ${(props) => (props.variant ? 'white' : 'black')};
   border-radius: 16px;
 
   position: relative;
@@ -13,9 +13,9 @@ export const Text = styled.p`
   font-weight: 400;
   font-size: 24px;
   line-height: 150%;
-  color: white;
+  color: ${(props) => (props.variant ? 'black' : 'white')};
 
   & > b {
-    color: white;
+    color: ${(props) => (props.variant ? 'black' : 'white')};
   }
 `;

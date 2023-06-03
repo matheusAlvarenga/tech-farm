@@ -4,10 +4,10 @@ export const TitleWrapper = styled.div`
   font-family: 'Fjalla One';
   font-style: normal;
   font-weight: 400;
-  font-size: 16.4rem;
+  font-size: ${(props) => props.size};
   align-items: flex-end;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: ${(props) => (props.uppercase ? 'uppercase' : 'unset')};
 
   background: linear-gradient(272.48deg, #FFFFFF 66.94%, #8336A7 84.96%, #C74FFF 91.51%);
   -webkit-background-clip: text;

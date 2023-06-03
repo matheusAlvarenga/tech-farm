@@ -18,3 +18,17 @@ export const Image2 = styled.img`
   z-index: 2;
   width: 100%;
 `;
+
+export const Image3 = styled.img`
+  position: absolute;
+  top: 15rem;
+  right: 10%;
+`;
+
+export const Section = styled.div`
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
