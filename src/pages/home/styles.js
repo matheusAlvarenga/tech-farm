@@ -67,5 +67,3 @@ export const StyledLink = styled(Link)`
   text-decoration: underline;
   color: #90A0AF;
 `;
-
-export const Logo = styled.img``;

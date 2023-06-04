@@ -5,11 +5,11 @@ import img2 from '../../assets/home-2.png';
 import img3 from '../../assets/home-3.png';
 import img4 from '../../assets/home-4.png';
 import img5 from '../../assets/home-5.png';
-import logo from '../../assets/logo.svg';
 import * as S from './styles';
 import { Banner } from '../../components/banner';
 import { Divider } from '../../components/divider';
 import { Text } from '../../components/text';
+import { Footer } from '../../components/footer';
 
 export function Home() {
   return (
@@ -93,10 +93,7 @@ export function Home() {
         </S.TextWrapper>
       </S.Section>
       <Divider height="80px" />
-      <S.Section>
-        <S.Logo src={logo} alt="" />
-        <Divider height="40px" />
-      </S.Section>
+      <Footer />
     </S.Wrapper>
   );
 }
