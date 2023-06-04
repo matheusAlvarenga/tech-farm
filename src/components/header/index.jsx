@@ -6,10 +6,10 @@ export function Header() {
     <S.Wrapper>
       <S.Logo src={mainLogo} />
       <S.Menu>
-        <S.MenuItem>
+        <S.MenuItem to="/">
           <S.MenuItemText>Inicio</S.MenuItemText>
         </S.MenuItem>
-        <S.MenuItem><S.MenuItemText>Fome</S.MenuItemText></S.MenuItem>
+        <S.MenuItem to="/fome"><S.MenuItemText>Fome</S.MenuItemText></S.MenuItem>
         <S.MenuItem><S.MenuItemText>Inseguranca Alimentar</S.MenuItemText></S.MenuItem>
         <S.MenuItem><S.MenuItemText>Agricultura</S.MenuItemText></S.MenuItem>
         <S.MenuItem><S.MenuItemText>Nossa Solucao ↓</S.MenuItemText></S.MenuItem>
