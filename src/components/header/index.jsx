@@ -10,7 +10,7 @@ export function Header() {
           <S.MenuItemText>Inicio</S.MenuItemText>
         </S.MenuItem>
         <S.MenuItem to="/fome"><S.MenuItemText>Fome</S.MenuItemText></S.MenuItem>
-        <S.MenuItem><S.MenuItemText>Inseguranca Alimentar</S.MenuItemText></S.MenuItem>
+        <S.MenuItem to="/inseguranca"><S.MenuItemText>Insegurança alimentar</S.MenuItemText></S.MenuItem>
         <S.MenuItem><S.MenuItemText>Agricultura</S.MenuItemText></S.MenuItem>
         <S.MenuItem><S.MenuItemText>Nossa Solucao ↓</S.MenuItemText></S.MenuItem>
       </S.Menu>
