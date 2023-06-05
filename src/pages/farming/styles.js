@@ -12,7 +12,7 @@ export const Image1 = styled.img`
   object-fit: cover;
   padding: 8rem;
   position: absolute;
-  top: 20rem;
+  top: 17rem;
 `;
 
 export const TextWrapper = styled.div`
@@ -27,6 +27,11 @@ export const HorizontalSection = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 4.8rem;
   padding: 6rem 12rem;
+
+  @media (max-width: 950px) {
+    flex-direction: column;
+  }
 `;

@@ -13,8 +13,8 @@ export function FarmingPage() {
     <S.Wrapper>
       <Header />
       <S.Image1 src={img1} alt="" />
-      <Title size="25rem" uppercase>Agricultura</Title>
-      <Divider height="80px" />
+      <Title size="20rem" uppercase>Agricultura</Title>
+      <Divider height="8rem" />
       <Banner variant>Cultive um futuro mais verde.</Banner>
       <Divider height="20rem" />
       <S.TextWrapper>
@@ -27,18 +27,18 @@ export function FarmingPage() {
           mais resiliente.
         </Text>
       </S.TextWrapper>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Title size="10.5rem">
         Alimente a transformação.
         <br />
         Promova a sustentabilidade.
       </Title>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <S.HorizontalSection>
         <Card title="Agricultura sustentável" description="A agricultura sustentável é uma necessidade urgente para enfrentar os desafios globais de segurança alimentar. Segundo a Organização das Nações Unidas para Alimentação e Agricultura (FAO), aproximadamente 690 milhões de pessoas sofrem de fome crônica no mundo." />
         <Card title="Metas da ODS 2" description="O Objetivo de Desenvolvimento Sustentável 2 (ODS 2) da ONU visa alcançar a fome zero e promover a agricultura sustentável. Essas metas ambiciosas buscam garantir o acesso universal a alimentos nutritivos e suficientes, além de promover práticas agrícolas que sejam ambientalmente conscientes e socialmente justas." />
       </S.HorizontalSection>
-      <Divider height="20px" />
+      <Divider height="2rem" />
       <S.HorizontalSection>
         <Text>
           Ao adotarmos práticas agrícolas sustentáveis, podemos aumentar a produção de alimentos de
@@ -65,7 +65,7 @@ export function FarmingPage() {
           prosperidade econômica, promovendo um futuro mais verde e sustentável para todos.
         </Text>
       </S.HorizontalSection>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Footer />
     </S.Wrapper>
   );
