@@ -277,6 +277,24 @@ See https://s-c.sh/2BAXzed for more info.`),window["__styled-components-init__"]
   a {
     text-decoration: none;
   }
+
+  @media (max-width: 1460px) {
+    html, body {
+      font-size: 53.5%;
+    }
+  }
+
+  @media (max-width: 950px) {
+    html, body {
+      font-size: 40%;
+    }
+  }
+
+  @media (max-width: 764px) {
+    html, body {
+      font-size: 30%;
+    }
+  }
 `;/**
  * @remix-run/router v1.6.2
  *
@@ -312,17 +330,17 @@ See https://s-c.sh/2BAXzed for more info.`),window["__styled-components-init__"]
   display: flex;
   justify-content: space-between;
 
-  padding: 32px;
+  padding: 3.2rem;
 `,tk=Pe.img`
-  height: 40px;
+  height: 4rem;
 `,nk=Pe.nav`
   display: flex;
 `,rs=Pe(If)`
-  padding: 8px 24px;
+  padding: 0.8rem 2.4rem;
 `,is=Pe.p`
   font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: black;
 `,OE="/tech-farm/assets/logo-deed5ed7.svg";function vs(){return R.jsxs(ek,{children:[R.jsx(tk,{src:OE}),R.jsxs(nk,{children:[R.jsx(rs,{to:"/",children:R.jsx(is,{children:"Inicio"})}),R.jsx(rs,{to:"/fome",children:R.jsx(is,{children:"Fome"})}),R.jsx(rs,{to:"/inseguranca",children:R.jsx(is,{children:"Insegurança alimentar"})}),R.jsx(rs,{to:"/agricultura",children:R.jsx(is,{children:"Agricultura"})}),R.jsx(rs,{to:"/nossa-solucao",children:R.jsx(is,{children:"Nossa Solucao ↓"})})]})]})}const ak=Pe.div`
   font-family: 'Fjalla One';
@@ -351,6 +369,9 @@ See https://s-c.sh/2BAXzed for more info.`),window["__styled-components-init__"]
   position: absolute;
   top: 43.2rem;
   left: 20%;
+  width: 57rem;
+  height: 400px;
+  object-fit: cover;
 `,ck=Pe.img`
   padding: 8rem 4.8rem;
   position: relative;
@@ -360,6 +381,7 @@ See https://s-c.sh/2BAXzed for more info.`),window["__styled-components-init__"]
   position: absolute;
   top: 15rem;
   right: 0;
+  width: 56rem;
 `,im=Pe.div`
   position: relative;
   width: 100%;
@@ -372,12 +394,22 @@ See https://s-c.sh/2BAXzed for more info.`),window["__styled-components-init__"]
   justify-content: center;
   gap: 4.8rem;
   padding: 6rem 12rem;
+
+  @media (max-width: 950px) {
+    flex-direction: column;
+  }
 `,pk=Pe.img`
   position: absolute;
   left: 0;
+  width: 48rem;
 `,vk=Pe.img`
   position: absolute;
   right: 0;
+  width: 52rem;
+
+  @media (max-width: 1460px) {
+    width: 45rem;
+  }
 `,hk=Pe.div`
   max-width: 60rem;
 
@@ -399,7 +431,7 @@ See https://s-c.sh/2BAXzed for more info.`),window["__styled-components-init__"]
   z-index: 2;
 `,gk=Pe.p`
   font-weight: 400;
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 150%;
   color: ${u=>u.variant?"black":"white"};
 
@@ -414,13 +446,16 @@ See https://s-c.sh/2BAXzed for more info.`),window["__styled-components-init__"]
   font-size: 2.4rem;
   line-height: 150%;
   color: #28333D;
+
+  z-index: 2;
+  position: relative;
 `;function pn({children:u}){return R.jsx(Sk,{children:u})}const Ck=Pe.div`
   position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-`,Ek=Pe.img``;function hs(){return R.jsxs(Ck,{children:[R.jsx(Ek,{src:OE,alt:""}),R.jsx(ot,{height:"40px"})]})}function Rk(){return R.jsxs(lk,{children:[R.jsx(vs,{}),R.jsx(sk,{src:rk,alt:""}),R.jsxs(aa,{uppercase:!0,size:"16.4rem",children:["estamos",R.jsx("br",{}),"mudando o mundo"]}),R.jsx(ot,{height:"8px"}),R.jsxs(cu,{children:["Uma nova maneira de"," ",R.jsx("b",{children:"produzir alimentos"}),", uma nova maneira de"," ",R.jsx("b",{children:"matar a fome"}),"!"]}),R.jsx(ck,{src:ik}),R.jsxs(im,{children:[R.jsx(fk,{src:ok,alt:""}),R.jsxs(aa,{size:"10.5rem",children:["Utilizando a Tecnologia para",R.jsx("br",{}),"melhorar a agricultura"]}),R.jsx(ot,{height:"32px"}),R.jsx(cu,{variant:!0,children:"Utilizamos IA generativas para aumentar a produtividade de nossas fazendas"})]}),R.jsx(ot,{height:"160px"}),R.jsxs(im,{children:[R.jsx(pk,{src:AE,alt:""}),R.jsx(ot,{height:"40px"}),R.jsx(aa,{size:"20rem",uppercase:!0,lineHeight:"100%",children:"Revolucao da agricultura"})]}),R.jsxs(dk,{children:[R.jsxs(pn,{children:["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam. Quisque et ipsum eros. Nunc aliquam elit non felis bibendum, cursus feugiat erat suscipit. Donec porttitor nunc dignissim eros egestas aliquam in eu erat. Praesent odio elit, auctor id justo non, condimentum finibus nisi.",R.jsx("br",{}),R.jsx("br",{}),"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam. Quisque et ipsum eros. Nunc aliquam elit non felis bibendum, cursus feugiat erat suscipit. Donec porttitor nunc dignissim eros egestas aliquam in eu erat. Praesent odio elit, auctor id justo non, condimentum finibus nisi."]}),R.jsx(pn,{children:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam. Quisque et ipsum eros. Nunc aliquam elit non felis bibendum, cursus feugiat erat suscipit. Donec porttitor nunc dignissim eros egestas aliquam in eu erat. Praesent odio elit, auctor id justo non, condimentum finibus nisi."})]}),R.jsxs(im,{children:[R.jsx(vk,{src:uk,alt:""}),R.jsxs(aa,{size:"20rem",uppercase:!0,children:["Entenda mais",R.jsx("br",{}),"sobre"]}),R.jsx(hk,{children:R.jsxs(pn,{children:["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam. Quisque et ipsum eros. Nunc aliquam elit non felis bibendum.",R.jsx("br",{}),R.jsx(mk,{to:"#",children:"Veja nosso video pitch!"})]})})]}),R.jsx(ot,{height:"80px"}),R.jsx(hs,{})]})}const qf="/tech-farm/assets/hungry-1-672d4461.png",xk=Pe.div`
+`,Ek=Pe.img``;function hs(){return R.jsxs(Ck,{children:[R.jsx(Ek,{src:OE,alt:""}),R.jsx(ot,{height:"40px"})]})}function Rk(){return R.jsxs(lk,{children:[R.jsx(vs,{}),R.jsx(sk,{src:rk,alt:""}),R.jsxs(aa,{uppercase:!0,size:"16.4rem",children:["estamos",R.jsx("br",{}),"mudando o mundo"]}),R.jsx(ot,{height:"8px"}),R.jsxs(cu,{children:["Uma nova maneira de"," ",R.jsx("b",{children:"produzir alimentos"}),", uma nova maneira de"," ",R.jsx("b",{children:"matar a fome"}),"!"]}),R.jsx(ck,{src:ik}),R.jsxs(im,{children:[R.jsx(fk,{src:ok,alt:""}),R.jsxs(aa,{size:"10.5rem",children:["Utilizando a Tecnologia para",R.jsx("br",{}),"melhorar a agricultura"]}),R.jsx(ot,{height:"3.2rem"}),R.jsx(cu,{variant:!0,children:"Utilizamos IA generativas para aumentar a produtividade de nossas fazendas"})]}),R.jsx(ot,{height:"16rem"}),R.jsxs(im,{children:[R.jsx(pk,{src:AE,alt:""}),R.jsx(ot,{height:"4rem"}),R.jsx(aa,{size:"20rem",uppercase:!0,lineHeight:"100%",children:"Revolucao da agricultura"})]}),R.jsxs(dk,{children:[R.jsxs(pn,{children:["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam. Quisque et ipsum eros. Nunc aliquam elit non felis bibendum, cursus feugiat erat suscipit. Donec porttitor nunc dignissim eros egestas aliquam in eu erat. Praesent odio elit, auctor id justo non, condimentum finibus nisi.",R.jsx("br",{}),R.jsx("br",{}),"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam. Quisque et ipsum eros. Nunc aliquam elit non felis bibendum, cursus feugiat erat suscipit. Donec porttitor nunc dignissim eros egestas aliquam in eu erat. Praesent odio elit, auctor id justo non, condimentum finibus nisi."]}),R.jsx(pn,{children:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam. Quisque et ipsum eros. Nunc aliquam elit non felis bibendum, cursus feugiat erat suscipit. Donec porttitor nunc dignissim eros egestas aliquam in eu erat. Praesent odio elit, auctor id justo non, condimentum finibus nisi."})]}),R.jsxs(im,{children:[R.jsx(vk,{src:uk,alt:""}),R.jsxs(aa,{size:"20rem",uppercase:!0,children:["Entenda mais",R.jsx("br",{}),"sobre"]}),R.jsx(hk,{children:R.jsxs(pn,{children:["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae ex diam. Quisque et ipsum eros. Nunc aliquam elit non felis bibendum.",R.jsx("br",{}),R.jsx(mk,{to:"#",children:"Veja nosso video pitch!"})]})})]}),R.jsx(ot,{height:"8rem"}),R.jsx(hs,{})]})}const qf="/tech-farm/assets/hungry-1-672d4461.png",xk=Pe.div`
   display: flex;
   flex-direction: column;
   align-items: center;
