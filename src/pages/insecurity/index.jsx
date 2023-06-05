@@ -13,8 +13,8 @@ export function InsecurityPage() {
     <S.Wrapper>
       <Header />
       <S.Image1 src={img1} alt="" />
-      <Title size="25rem" uppercase>insegurança alimentar</Title>
-      <Divider height="80px" />
+      <Title size="22rem" uppercase>insegurança alimentar</Title>
+      <Divider height="8rem" />
       <Banner variant>
         Inovação contra a fome: Apoie iniciativas
         tecnológicas para combater a insegurança alimentar.
@@ -29,17 +29,17 @@ export function InsecurityPage() {
           a segurança alimentar para todos.
         </Text>
       </S.TextWrapper>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Title size="10.5rem">
         Unidos contra a
         <br />
         insegurança alimentar.
       </Title>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <S.HorizontalSection>
         <Card title="Tecnologia" description="A tecnologia desempenha um papel fundamental no fortalecimento dos sistemas alimentares, desde a melhoria da produção e armazenamento de alimentos até a distribuição eficiente e o rastreamento de suprimentos.." />
       </S.HorizontalSection>
-      <Divider height="20px" />
+      <Divider height="2rem" />
       <S.HorizontalSection>
         <Text>
           Segundo a Organização das Nações Unidas para a Alimentação e a Agricultura (FAO),
@@ -65,7 +65,7 @@ export function InsecurityPage() {
           nutritivos e suficientes.
         </Text>
       </S.HorizontalSection>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Footer />
     </S.Wrapper>
   );
