@@ -15,7 +15,7 @@ export function OurSolutionPage() {
       <Header />
       <S.Image1 src={img1} alt="" />
       <Title size="25rem" uppercase>tech farm</Title>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Banner variant>
         Inovação contra a fome: Apoie iniciativas
         tecnológicas para combater a insegurança alimentar.
@@ -30,12 +30,12 @@ export function OurSolutionPage() {
           a segurança alimentar para todos.
         </Text>
       </S.TextWrapper>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <S.Section>
         <S.Image2 src={img2} alt="" />
-        <Divider height="40px" />
+        <Divider height="4rem" />
         <Title size="20rem" uppercase lineHeight="100%">Revolucao da agricultura</Title>
-        <Divider height="40px" />
+        <Divider height="4rem" />
         <S.HorizontalSection>
           <Text>
             Segundo a Organização das Nações Unidas para a Alimentação e a Agricultura (FAO),
@@ -54,13 +54,13 @@ export function OurSolutionPage() {
           </Text>
         </S.HorizontalSection>
       </S.Section>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Title size="10.5rem">
         Unidos contra a
         <br />
         insegurança alimentar.
       </Title>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <S.HorizontalSection>
         <Card title="Tecnologia" description="A tecnologia desempenha um papel fundamental no fortalecimento dos sistemas alimentares, desde a melhoria da produção e armazenamento de alimentos até a distribuição eficiente e o rastreamento de suprimentos.." />
         <Card title="Tecnologia" description="A tecnologia desempenha um papel fundamental no fortalecimento dos sistemas alimentares, desde a melhoria da produção e armazenamento de alimentos até a distribuição eficiente e o rastreamento de suprimentos.." />
@@ -91,13 +91,13 @@ export function OurSolutionPage() {
           nutritivos e suficientes.
         </Text>
       </S.HorizontalSection>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Title size="10.5rem">
         Unidos contra a
         <br />
         insegurança alimentar.
       </Title>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <S.HorizontalSection>
         <Text>
           Segundo a Organização das Nações Unidas para a Alimentação e a Agricultura (FAO),
@@ -115,7 +115,7 @@ export function OurSolutionPage() {
           nutritivos e suficientes.
         </Text>
       </S.HorizontalSection>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Footer />
     </S.Wrapper>
   );

@@ -18,6 +18,7 @@ export const Image1 = styled.img`
 export const Image2 = styled.img`
   position: absolute;
   left: 0;
+  width: 48rem;
 `;
 
 export const TextWrapper = styled.div`
