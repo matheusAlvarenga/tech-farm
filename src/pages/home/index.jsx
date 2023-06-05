@@ -45,15 +45,15 @@ export function Home() {
           <br />
           melhorar a agricultura
         </Title>
-        <Divider height="32px" />
+        <Divider height="3.2rem" />
         <Banner variant>
           Utilizamos IA generativas para aumentar a produtividade de nossas fazendas
         </Banner>
       </S.Section>
-      <Divider height="160px" />
+      <Divider height="16rem" />
       <S.Section>
         <S.Image4 src={img4} alt="" />
-        <Divider height="40px" />
+        <Divider height="4rem" />
         <Title size="20rem" uppercase lineHeight="100%">Revolucao da agricultura</Title>
       </S.Section>
       <S.HorizontalSection>
@@ -92,7 +92,7 @@ export function Home() {
           </Text>
         </S.TextWrapper>
       </S.Section>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Footer />
     </S.Wrapper>
   );

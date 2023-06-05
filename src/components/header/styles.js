@@ -7,11 +7,11 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
 
-  padding: 32px;
+  padding: 3.2rem;
 `;
 
 export const Logo = styled.img`
-  height: 40px;
+  height: 4rem;
 `;
 
 export const Menu = styled.nav`
@@ -19,12 +19,12 @@ export const Menu = styled.nav`
 `;
 
 export const MenuItem = styled(Link)`
-  padding: 8px 24px;
+  padding: 0.8rem 2.4rem;
 `;
 
 export const MenuItemText = styled.p`
   font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 2rem;
+  line-height: 2.4rem;
   color: black;
 `;

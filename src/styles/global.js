@@ -19,4 +19,22 @@ export const ResetCss = createGlobalStyle`
   a {
     text-decoration: none;
   }
+
+  @media (max-width: 1460px) {
+    html, body {
+      font-size: 53.5%;
+    }
+  }
+
+  @media (max-width: 950px) {
+    html, body {
+      font-size: 40%;
+    }
+  }
+
+  @media (max-width: 764px) {
+    html, body {
+      font-size: 30%;
+    }
+  }
 `;

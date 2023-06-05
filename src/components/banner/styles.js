@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
 
 export const Text = styled.p`
   font-weight: 400;
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 150%;
   color: ${(props) => (props.variant ? 'black' : 'white')};
 

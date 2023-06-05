@@ -5,4 +5,7 @@ export const Wrapper = styled.p`
   font-size: 2.4rem;
   line-height: 150%;
   color: #28333D;
+
+  z-index: 2;
+  position: relative;
 `;

@@ -11,6 +11,9 @@ export const Image1 = styled.img`
   position: absolute;
   top: 43.2rem;
   left: 20%;
+  width: 57rem;
+  height: 400px;
+  object-fit: cover;
 `;
 
 export const Image2 = styled.img`
@@ -24,6 +27,7 @@ export const Image3 = styled.img`
   position: absolute;
   top: 15rem;
   right: 0;
+  width: 56rem;
 `;
 
 export const Section = styled.div`
@@ -40,16 +44,26 @@ export const HorizontalSection = styled.div`
   justify-content: center;
   gap: 4.8rem;
   padding: 6rem 12rem;
+
+  @media (max-width: 950px) {
+    flex-direction: column;
+  }
 `;
 
 export const Image4 = styled.img`
   position: absolute;
   left: 0;
+  width: 48rem;
 `;
 
 export const Image5 = styled.img`
   position: absolute;
   right: 0;
+  width: 52rem;
+
+  @media (max-width: 1460px) {
+    width: 45rem;
+  }
 `;
 
 export const TextWrapper = styled.div`
