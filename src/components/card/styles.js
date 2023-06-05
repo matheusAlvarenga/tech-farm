@@ -16,14 +16,14 @@ export const Wrapper = styled.div`
 
 export const Title = styled.p`
   font-weight: 700;
-  font-size: 52px;
-  line-height: 50px;
+  font-size: 5.2rem;
+  line-height: 5rem;
   color: #FFFFFF;
 `;
 
 export const Description = styled.p`
   font-weight: 400;
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 150%;
   color: #FFFFFF;
 `;

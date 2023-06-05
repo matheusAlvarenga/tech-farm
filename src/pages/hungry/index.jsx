@@ -14,7 +14,7 @@ export function HungryPage() {
       <Header />
       <S.Image1 src={img1} alt="" />
       <Title size="25rem" uppercase>Fome</Title>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Banner variant>Vamos inovar para lutar contra a fome</Banner>
       <Divider height="20rem" />
       <S.TextWrapper>
@@ -26,18 +26,18 @@ export function HungryPage() {
           promover a igualdade no acesso a alimentos nutritivos e suficientes.
         </Text>
       </S.TextWrapper>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Title size="10.5rem">
         Junte-se a nós
         <br />
         contra a fome.
       </Title>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <S.HorizontalSection>
         <Card title="Produção agrícola" description="Para enfrentar a fome de forma sustentável, é fundamental adotar medidas que promovam a produção agrícola, a melhoria do acesso a alimentos e a promoção de sistemas alimentares resilientes." />
         <Card title="Desigualdades" description="É importante abordar as desigualdades sociais, econômicas e de gênero, que contribuem para a persistência da fome. Investimentos em educação, saúde, infraestrutura e proteção social são essenciais para criar condições propícias para o combate à fome." />
       </S.HorizontalSection>
-      <Divider height="20px" />
+      <Divider height="2rem" />
       <S.HorizontalSection>
         <Text>
           De acordo com a Organização das Nações Unidas para a Alimentação e a Agricultura (FAO),
@@ -63,7 +63,7 @@ export function HungryPage() {
           enfrentar a dor e a injustiça da fome.
         </Text>
       </S.HorizontalSection>
-      <Divider height="80px" />
+      <Divider height="8rem" />
       <Footer />
     </S.Wrapper>
   );
