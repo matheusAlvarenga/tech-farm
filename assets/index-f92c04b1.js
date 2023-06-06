@@ -295,6 +295,12 @@ See https://s-c.sh/2BAXzed for more info.`),window["__styled-components-init__"]
       font-size: 30%;
     }
   }
+
+  @media (max-width: 600px) {
+    html, body {
+      font-size: 22%;
+    }
+  }
 `;/**
  * @remix-run/router v1.6.2
  *
