@@ -37,4 +37,10 @@ export const ResetCss = createGlobalStyle`
       font-size: 30%;
     }
   }
+
+  @media (max-width: 600px) {
+    html, body {
+      font-size: 22%;
+    }
+  }
 `;
