@@ -35,6 +35,10 @@ export const HorizontalSection = styled.div`
   justify-content: center;
   gap: 4.8rem;
   padding: 6rem 12rem;
+
+  @media (max-width: 950px) {
+    flex-direction: column;
+  }
 `;
 
 export const Section = styled.div`
