@@ -588,6 +588,10 @@ See https://s-c.sh/2BAXzed for more info.`),window["__styled-components-init__"]
   justify-content: center;
   gap: 4.8rem;
   padding: 6rem 12rem;
+
+  @media (max-width: 950px) {
+    flex-direction: column;
+  }
 `,$k=Pe.div`
   position: relative;
   width: 100%;
