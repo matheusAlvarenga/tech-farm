@@ -17,102 +17,85 @@ export function OurSolutionPage() {
       <Title size="25rem" uppercase>tech farm</Title>
       <Divider height="8rem" />
       <Banner variant>
-        Inovação contra a fome: Apoie iniciativas
-        tecnológicas para combater a insegurança alimentar.
+        Transforme a agricultura urbana conosco!
       </Banner>
       <Divider height="20rem" />
       <S.TextWrapper>
         <Text>
-          A insegurança alimentar é um desafio global que afeta milhões de pessoas, resultando na
-          falta de acesso a alimentos nutritivos e suficientes. Essa situação gera impactos
-          significativosna saúde, no bem-estar e no desenvolvimento das comunidades. É fundamental
-          abordar essa questão de forma abrangente e encontrar soluções inovadoras para garantir
-          a segurança alimentar para todos.
+          Descubra como a Tech Farm está revolucionando a agricultura urbana com suas fazendas
+          indoor inteligentes. Aproveite ao máximo o espaço disponível nas cidades e produza
+          alimentos frescos e sustentáveis o ano todo.
         </Text>
       </S.TextWrapper>
-      <Divider height="8rem" />
+      <Divider height="12rem" />
       <S.Section>
         <S.Image2 src={img2} alt="" />
         <Divider height="4rem" />
-        <Title size="20rem" uppercase lineHeight="100%">Revolucao da agricultura</Title>
+        <Title size="20rem" uppercase lineHeight="100%">
+          Agricultura Vertical
+        </Title>
         <Divider height="4rem" />
         <S.HorizontalSection>
           <Text>
-            Segundo a Organização das Nações Unidas para a Alimentação e a Agricultura (FAO),
-            aproximadamente 2 bilhões de pessoas enfrentam algum grau de insegurança alimentar
-            moderada ou grave em todo o mundo. Isso representa quase um quarto da população global.
-            Regiões como a África Subsaariana e partes da Ásia são particularmente afetadas,
-            com altos índices de desnutrição e fome.
+            Em nossas fazendas indoor, combinamos a agricultura vertical com a mais recente
+            tecnologia para criar um ambiente ideal para o cultivo de plantas. Nossas estufas
+            verticais são projetadas para aproveitar ao máximo o espaço disponível, permitindo
+            o cultivo em múltiplos níveis.
           </Text>
           <Text>
-            Unidos contra a insegurança alimentar. Juntos, podemos combater a falta de acesso a
-            alimentos e criar soluções inovadoras para garantir a segurança alimentar. Cada ação
-            individual, seja por meio de doações, apoio a tecnologias ou advocacy, contribui para
-            melhorar a vida das pessoas que sofrem com a insegurança alimentar. Vamos trabalhar em
-            conjunto para construir um mundo onde todos tenham acesso adequado a alimentos
-            nutritivos e suficientes.
+            Com sistemas de iluminação LED de última geração, controle de temperatura e umidade
+            e irrigação precisa, nossas plantas recebem os nutrientes necessários para crescer
+            de forma saudável, independentemente das condições climáticas externas.
           </Text>
         </S.HorizontalSection>
       </S.Section>
       <Divider height="8rem" />
       <Title size="10.5rem">
-        Unidos contra a
-        <br />
-        insegurança alimentar.
+        Inteligência Artificial Generativa: Maximizando a Produtividade
       </Title>
       <Divider height="8rem" />
       <S.HorizontalSection>
-        <Card title="Tecnologia" description="A tecnologia desempenha um papel fundamental no fortalecimento dos sistemas alimentares, desde a melhoria da produção e armazenamento de alimentos até a distribuição eficiente e o rastreamento de suprimentos.." />
-        <Card title="Tecnologia" description="A tecnologia desempenha um papel fundamental no fortalecimento dos sistemas alimentares, desde a melhoria da produção e armazenamento de alimentos até a distribuição eficiente e o rastreamento de suprimentos.." />
-      </S.HorizontalSection>
-      <Divider height="20px" />
-      <S.HorizontalSection>
         <Text>
-          Segundo a Organização das Nações Unidas para a Alimentação e a Agricultura (FAO),
-          aproximadamente 2 bilhões de pessoas enfrentam algum grau de insegurança alimentar
-          moderada ou grave em todo o mundo. Isso representa quase um quarto da população global.
-          Regiões como a África Subsaariana e partes da Ásia são particularmente afetadas,
-          com altos índices de desnutrição e fome.
+          A inteligência artificial generativa é o coração de nossas fazendas. Utilizando
+          algoritmos avançados, nossa IA monitora continuamente as plantas, analisando seus
+          estágios de crescimento e adaptando as condições de cultivo para maximizar a
+          produtividade.
           <br />
           <br />
-          A insegurança alimentar não se limita apenas a países em desenvolvimento. Mesmo em
-          nações mais desenvolvidas, como os Estados Unidos, existem problemas significativos
-          de insegurança alimentar. Segundo dados recentes, mais de 45 milhões de pessoas nos
-          EUA enfrentaram insegurança alimentar em algum momento de 2021, o que corresponde a
-          cerca de 13,8% da população. Esses números destacam a necessidade de ações abrangentes
-          para garantir que todas as pessoas tenham acesso adequado a alimentos nutritivos.
+          Com base em dados em tempo real, nossa IA ajusta automaticamente
+          a quantidade de luz, água e nutrientes fornecidos a cada planta, garantindo um
+          crescimento ideal e colheitas abundantes. Ao otimizar o processo de cultivo,
+          garantimos que você obtenha produtos frescos, saborosos e nutritivos em todas as
+          estações, diretamente no coração da cidade.
         </Text>
         <Text>
-          Unidos contra a insegurança alimentar. Juntos, podemos combater a falta de acesso a
-          alimentos e criar soluções inovadoras para garantir a segurança alimentar. Cada ação
-          individual, seja por meio de doações, apoio a tecnologias ou advocacy, contribui para
-          melhorar a vida das pessoas que sofrem com a insegurança alimentar. Vamos trabalhar em
-          conjunto para construir um mundo onde todos tenham acesso adequado a alimentos
-          nutritivos e suficientes.
+          Descubra como a Tech Farm pode transformar sua visão de agricultura urbana. Junte-se
+          a nós nesta jornada rumo a um futuro alimentar mais sustentável, onde a inovação e
+          a tecnologia se unem para cultivar alimentos saudáveis e acessíveis, mesmo nas áreas
+          mais densamente povoadas.
         </Text>
       </S.HorizontalSection>
       <Divider height="8rem" />
       <Title size="10.5rem">
-        Unidos contra a
-        <br />
-        insegurança alimentar.
+        Nossas fazendas
       </Title>
       <Divider height="8rem" />
       <S.HorizontalSection>
         <Text>
-          Segundo a Organização das Nações Unidas para a Alimentação e a Agricultura (FAO),
-          aproximadamente 2 bilhões de pessoas enfrentam algum grau de insegurança alimentar
-          moderada ou grave em todo o mundo. Isso representa quase um quarto da população global.
-          Regiões como a África Subsaariana e partes da Ásia são particularmente afetadas,
-          com altos índices de desnutrição e fome.
+          Com nossas tecnologias conseguimos produzir o equivalente a 700 acres de terra em um
+          espaço do tamanho de uma grande loja de varejo. Fazemos a colheita 365 por ano e
+          conseguimos condensar o crescimento em cerca de 10 dias para a maioria dos produtos,
+          que representa um aumento de 700% no rendimento.
+          <br />
+          <br />
+          Economizamos cerca de 100.000 galões de água por semana, utilizando cerca de 1% da
+          terra em comparação com a agricultura tradicional. Regamos nossas plantas diretamente
+          pelas raízes e reutilizamos 99% da água que é transpirada pelas plantas.
         </Text>
         <Text>
-          Unidos contra a insegurança alimentar. Juntos, podemos combater a falta de acesso a
-          alimentos e criar soluções inovadoras para garantir a segurança alimentar. Cada ação
-          individual, seja por meio de doações, apoio a tecnologias ou advocacy, contribui para
-          melhorar a vida das pessoas que sofrem com a insegurança alimentar. Vamos trabalhar em
-          conjunto para construir um mundo onde todos tenham acesso adequado a alimentos
-          nutritivos e suficientes.
+          O custo para montar nosso armazém de 1000 metros quadrados será de cerca de 5 milhões
+          de reais, sendo 42% em equipamento, 10% em canos e purificação de água, 16% em
+          instalação, 6% em elétrica e 11% em equipamentos extras e auxiliares
         </Text>
       </S.HorizontalSection>
       <Divider height="8rem" />
