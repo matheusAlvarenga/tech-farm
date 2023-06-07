@@ -3,7 +3,7 @@
 ## Membros do grupo
 
 - Matheus Alvarenga (RM96735)
-- Barbara Marins (RM)
+- Barbara Marins (RM96581)
 - Heloisa Ridolfi (RM96772)
 
 ## Links
