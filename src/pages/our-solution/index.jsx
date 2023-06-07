@@ -99,6 +99,51 @@ export function OurSolutionPage() {
         </Text>
       </S.HorizontalSection>
       <Divider height="8rem" />
+      <Title size="10.5rem">
+        Fale conosco
+      </Title>
+      <S.HorizontalSection>
+        <Text>
+          <b>Nome completo: </b>
+          Matheus Alvarenga de Oliveira
+          <br />
+          <b>E-mail: </b>
+          matheus.alvarenga0302@gmail.com
+          <br />
+          <b>Idade: </b>
+          22
+          <br />
+          <b>Telefone: </b>
+          (11) 96277-0042
+        </Text>
+        <Text>
+          <b>Nome completo: </b>
+          Heloisa Ridolfi
+          <br />
+          <b>E-mail: </b>
+          heloisaridolfi@gmail.com
+          <br />
+          <b>Idade: </b>
+          29
+          <br />
+          <b>Telefone: </b>
+          +1 (662) 863-0366
+        </Text>
+        <Text>
+          <b>Nome completo: </b>
+          Barbara Martins
+          <br />
+          <b>E-mail: </b>
+          pacbabi@gmail.com
+          <br />
+          <b>Idade: </b>
+          20
+          <br />
+          <b>Telefone: </b>
+          (11) 99729-7093
+        </Text>
+      </S.HorizontalSection>
+      <Divider height="8rem" />
       <Footer />
     </S.Wrapper>
   );

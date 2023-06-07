@@ -33,10 +33,11 @@ export const HorizontalSection = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 4.8rem;
   padding: 6rem 12rem;
 
-  @media (max-width: 950px) {
+  @media (max-width: 1155px) {
     flex-direction: column;
   }
 `;
